@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="DodgeGameProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DodgeGameProject" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="gridBoard">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/spaceBackground.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Canvas x:Name="canvasBoard" Margin="10,0,-10,0"/>
+    </Grid>
+</Page>
